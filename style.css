@@ -1,0 +1,74 @@
+/* h1 {
+  color: pink;
+} */
+
+/* .title {
+  color: red;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  height: 100%;
+  width: 100%;
+  background: #555;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+.menu i.fa-times-circle {
+  position: absolute;
+  top: 40px;
+  right: 45px;
+  font-size: 1.6rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.1rem;
+  margin: 5px 0;
+  /* background: orange;height: 100px; */
+}
+
+/* .menu a:not(:last-child) {
+  background: orange;
+}
+
+.menu > * {
+  margin-bottom: 45px;
+} */
+
+/* .menu a:first-child {
+  order: 2;
+}
+
+.menu a:last-child {
+  order: 1;
+  background: red;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 5%;
+  background: #555;
+  color: #fff;
+}
+
+header i {
+  cursor: pointer;
+}
